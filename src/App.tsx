@@ -1,3 +1,4 @@
+import React from 'react'
 import { Provider, useSelector } from 'react-redux'
 import { BrowserRouter, useLocation } from 'react-router-dom'
 import { GlobalCss } from './styles'
@@ -11,7 +12,9 @@ import Cart from './components/Cart'
 const HeaderLayout = () => {
   const location = useLocation()
 
-  return <>{location.pathname === '/' ? <Header /> : <HeaderStore />}</>
+  return (
+    <>{location.pathname === '/' ? <Header /> : <HeaderStore />}</>
+  )
 }
 
 function App() {

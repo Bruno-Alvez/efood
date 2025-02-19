@@ -10,7 +10,7 @@ import { Logo } from '../../styles'
 
 const HeaderStore = () => {
   const dispatch = useDispatch()
-  const { items } = useSelector((state: RootReducer) => state.cart)
+  const { items } = useSelector((state: RootReducer) => state.cart as { items: any[] })
 
   const openCart = () => {
     dispatch(open())
