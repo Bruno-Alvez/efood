@@ -16,7 +16,6 @@ export const ButtonProduct = styled.button`
   align-self: flex-end;
   margin-top: auto;     /* Empurra o botão para o final */
 `
-
 export const ButtonRestaurant = styled(Link)`
   width: 82px;
   height: 24px;

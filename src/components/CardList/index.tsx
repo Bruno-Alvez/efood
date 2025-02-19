@@ -82,7 +82,8 @@ export const CardList = ({ columns, restaurants, products }: Props) => {
           ) : null}
         </List>
       </div>
-      {dish ? (<ProductModal
+      {dish ? (
+        <ProductModal
           product={dish}
           image={image}
           name={name}
@@ -93,7 +94,8 @@ export const CardList = ({ columns, restaurants, products }: Props) => {
             modalIsOpen ? setModalIsOpen(false) : setModalIsOpen(true)
           }
           className={modalIsOpen ? 'visible' : ''}
-      />) : null}
+        />
+        ) : null}
     </>
   )
 }

@@ -13,11 +13,10 @@ export type Props = {
 }
 
 const Button = ({ type, title, to, onClick, onSubmit, children, disabled }: Props) => {
-  // const location = useLocation()
-  // type = location.pathname === '/' ? 'link' : 'button'
   if (type === 'button' || type === 'submit') {
     return (
       <ButtonProduct
+
         type={type}
         title={title}
         onClick={onClick}

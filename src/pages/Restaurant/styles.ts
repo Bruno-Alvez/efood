@@ -41,23 +41,19 @@ export const BannerStoreContent = styled.div`
   > h3 {
     @media (max-width: ${breakpoints.tablet}) {
     font-size: 24px;
-  }
+    }
   }
 
   p {
     font-weight: 100;
   }
 
-
-
-  @media (max-width: ${breakpoints.desktop}) {
+    @media (max-width: ${breakpoints.desktop}) {
     padding: 24px 54px;
   }
 `
-
 export const TypeFood = styled.p`
   text-transform: capitalize;
   @media (max-width: ${breakpoints.tablet}) {
     font-size: 18px;
-  }
-`
+  }`

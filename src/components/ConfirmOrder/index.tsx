@@ -2,7 +2,6 @@ import React from 'react'
 import { ConfirmText, ConfirmTitle } from './styles'
 import Button from '../Button'
 
-
 const ConfirmOrder = ({ orderId }: CheckoutResponse) => {
   return (
     <div>
