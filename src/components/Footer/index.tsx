@@ -17,7 +17,7 @@ const Footer = () => (
       </a>
       <SocialContent>
         <a
-          href="https://www.instagram.com/fiveatech/"
+          href="https://www.instagram.com"
           title="Link para instagram"
           target="_blank"
           rel="noopener noreferrer"
@@ -25,7 +25,7 @@ const Footer = () => (
           <img src={insta} alt="Instagram" />
         </a>
         <a
-          href="https://www.facebook.com/fiveatech/"
+          href="https://www.facebook.com"
           title="Link para facebook"
           target="_blank"
           rel="noopener noreferrer"
@@ -33,7 +33,7 @@ const Footer = () => (
           <img src={face} alt="Facebook" />
         </a>
         <a
-          href="https://www.instagram.com/fiveatech/"
+          href="https://www.instagram.com"
           title="Link para instagram"
           target="_blank"
           rel="noopener noreferrer"
