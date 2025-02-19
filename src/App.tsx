@@ -1,4 +1,3 @@
-import React from 'react'
 import { Provider, useSelector } from 'react-redux'
 import { BrowserRouter, useLocation } from 'react-router-dom'
 import { GlobalCss } from './styles'
