@@ -43,8 +43,7 @@ export const GlobalCss = createGlobalStyle`
 `;
 
 export const Logo = styled.img`
-  width: 160px;
-  border-radius: 20%;
+  width: 120px;
   box-shadow: 5px 5px 5px 5px rgba(255, 160, 122, 0.5);
 
   @media (max-width: ${breakpoints.tablet}) {
