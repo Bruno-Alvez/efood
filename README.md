@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# 🍽️ efood – Online Ordering Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was developed as part of the Full-Stack Python program at **EBAC** (Escola Britânica de Artes Criativas e Tecnologia). It's a complete front-end application for online food ordering, built with **React** and **TypeScript**.
 
-## Available Scripts
+The user can browse restaurants, explore individual menus, add items to the cart, and simulate the checkout process via a validated form.
 
-In the project directory, you can run:
+## ⚙️ Tech Stack
 
-### `npm start`
+- **React** (with Hooks)
+- **TypeScript**
+- **Styled-Components**
+- **React Router DOM**
+- **API integration** (with mock data)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🚀 Key Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Dynamic restaurant listing and individual menu rendering
+- Cart management and item selection
+- Form validation with user feedback
+- Responsive layout and clean UI
+- Integration with a simulated API (provided in the course)
+- Deployment via **Vercel**
 
-### `npm test`
+## 🎯 Learning Outcomes
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Type safety with TypeScript in a React environment
+- API consumption and dynamic rendering
+- Form validation techniques and UX considerations
+- Modular structure and reusable components
+- End-to-end front-end project delivery and deployment
 
-### `npm run build`
+## 🔗 Links
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Live Project**: [View on Vercel](https://your-vercel-link.com) <!-- substitua aqui -->
+- **Code**: [GitHub Repository](https://github.com/Bruno-Alvez/efood)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## ✅ Status
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+✔️ Completed – React project with TypeScript, API consumption and full user flow simulation.
